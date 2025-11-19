@@ -15,6 +15,10 @@ Together they illustrate how to design a simple application-layer protocol on to
 - Tkinter UI with chat history, system notifications, and Shift+Enter multi-line input support.
 - Graceful shutdown path triggered when `!DISCONNECT` is sent or the window closes.
 
+## Screenshots
+
+![Client UI](img/clientUI.png)
+
 ## Architecture Overview
 
 ### Client (`client.py`)
