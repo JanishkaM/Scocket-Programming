@@ -9,10 +9,11 @@ DISCONNECT_MESSAGE = "!DISCONNECT"
 USER_LIST_MESSAGE = "!USERLIST:"
 
 PORT = 5050
-SERVER = "94.237.67.44"
+SERVER = socket.gethostbyname(socket.gethostname())
+# SERVER = "20.205.17.205"
 ADDR = (SERVER, PORT)
 
-print(f"Server IP Address: {socket.gethostbyname(socket.gethostname())}")
+print(f"Server IP Address: {SERVER}")
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(ADDR)

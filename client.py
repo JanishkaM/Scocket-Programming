@@ -11,8 +11,7 @@ DISCONNECT_MESSAGE = "!DISCONNECT"
 USER_LIST_MESSAGE = "!USERLIST:"
 
 PORT = 5050
-SERVER = "94.237.67.44"
-
+SERVER = "20.205.17.205"
 
 class BasicChatUI:
     def __init__(self, root):
